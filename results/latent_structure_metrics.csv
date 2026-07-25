@@ -1,0 +1,13 @@
+model,metric,value
+FC autoencoder,clean_knn_accuracy,0.8135
+FC autoencoder,noisy_knn_accuracy,0.7245
+FC autoencoder,reconstructed_knn_accuracy,0.7935
+FC autoencoder,clean_noisy_overlap,0.6319500207901001
+FC autoencoder,clean_reconstructed_overlap,0.6399500370025635
+FC autoencoder,improved_overlap_fraction,0.34450000524520874
+Conv autoencoder,clean_knn_accuracy,0.803
+Conv autoencoder,noisy_knn_accuracy,0.7905
+Conv autoencoder,reconstructed_knn_accuracy,0.7875
+Conv autoencoder,clean_noisy_overlap,0.6412999629974365
+Conv autoencoder,clean_reconstructed_overlap,0.6465000510215759
+Conv autoencoder,improved_overlap_fraction,0.3544999957084656

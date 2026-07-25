@@ -1,0 +1,13 @@
+corruption,method,mse,psnr_db
+Gaussian sigma = 0.3,Noisy input,0.0526802111029625,12.804495745849609
+Gaussian sigma = 0.3,Gaussian filter,0.02597259329557419,15.917560731506347
+Gaussian sigma = 0.3,FC autoencoder,0.014345829197764396,19.136043774414063
+Gaussian sigma = 0.3,Conv autoencoder,0.01317786529958248,19.506116348266602
+Salt-and-pepper probability = 0.2,Noisy input,0.08386309484243393,10.80324920349121
+Salt-and-pepper probability = 0.2,Gaussian filter,0.028941385728120803,15.466996963500977
+Salt-and-pepper probability = 0.2,FC autoencoder,0.015152185460925102,18.852031954956054
+Salt-and-pepper probability = 0.2,Conv autoencoder,0.014507148849964142,18.984832836914062
+Random masking probability = 0.3,Noisy input,0.06197546467781067,12.96514114074707
+Random masking probability = 0.3,Gaussian filter,0.035255248713493344,15.116802793884277
+Random masking probability = 0.3,FC autoencoder,0.03159201761484146,15.588384457397462
+Random masking probability = 0.3,Conv autoencoder,0.03670837493538857,14.702967070007324

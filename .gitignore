@@ -1,0 +1,20 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Datasets
+data/
+
+# Model checkpoints
+checkpoints/
+
+# System files
+.DS_Store
+
+*.pt
+*.pth
+*.zip
+
+.venv/
+venv/
+.env
