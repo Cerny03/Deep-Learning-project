@@ -5,11 +5,9 @@ import matplotlib.pyplot as plt
 import numpy as np
 import torch
 from matplotlib.ticker import PercentFormatter
-#Serve a mostrare i valori di un asse di Matplotlib come percentuali.
 from torch.utils.data import (
     DataLoader,
     Subset,
-    #Subset permette di creare un sottoinsieme di un dataset usando una lista di indici.
 )
 from torchvision import datasets, transforms
 
@@ -87,8 +85,7 @@ def create_random_subset(
     """
     if number_of_samples > len(dataset):
         raise ValueError(
-            "number_of_samples cannot exceed the "
-            "dataset size"
+            "number_of_samples cannot exceed the dataset size"
         )
 
     generator = torch.Generator().manual_seed(
