@@ -55,23 +55,31 @@ The class labels are not used to train the denoising models. They are used only 
 
 ## Installation
 
+Clone the repository
+
+Open a terminal and clone the project:
+```bash
+git clone https://github.com/Cerny03/Deep-Learning-project.git
+```
+
+Move into the project directory:
+```bash
+cd Deep-Learning-project
+```
+
 Create and activate a virtual environment or Conda environment.
-
 Example with Conda:
-
 ```bash
 conda create -n dl_denoising python=3.12 -y
 conda activate dl_denoising
 ```
 
 Install the required packages:
-
 ```bash
 python -m pip install -r requirements.txt
 ```
 
 To run the entire project pipeline in the correct order, simply execute:
-
 ```bash
 python run_project.py
 ```
