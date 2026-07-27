@@ -15,7 +15,6 @@ SCRIPTS = [
 
     # --- Training & Evaluation ---
     "src/train_fc_autoencoder.py",
-    "src/evaluate_fc_autoencoder.py",
     "src/train_conv_autoencoder.py",
     "src/evaluate_all_models.py",
     "src/evaluate_noise_robustness.py",
